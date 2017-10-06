@@ -133,10 +133,7 @@ echo <<<EOT
 	</ul>
 </div>
 <div class="btn-group pull-right met-tool" {$met_agents_display}>
-	<button class="btn btn-default dropdown-toggle" type="button" id="shouquan" data-toggle="dropdown" aria-expanded="true">
-		<i class="fa fa-bookmark"></i><span class="hidden-xs">{$_M['word']['indexcode']}</span>
-		<span class="caret"></span>
-	</button>
+
 	<ul class="dropdown-menu" role="menu" aria-labelledby="shouquan">
 <!--
 EOT;
