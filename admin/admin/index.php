@@ -1,6 +1,5 @@
 <?php
 # MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved.
 require_once '../login/login_check.php';
  $serch_sql=" where usertype = 3 ";
     if($search == "detail_search") {
@@ -58,5 +57,4 @@ $img_url="../templates/".$met_skin."/images";
 include template('admin/admin');
 footer();
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

@@ -1,6 +1,4 @@
 <?php
-# MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
 require_once '../include/common.inc.php';
 $serch_sql = '';
 $order_sql = '';
@@ -365,6 +363,4 @@ $nav_x[name]=$nav_x[name]."&nbsp&nbsp<font color=red>'".$lang_Keywords.":&nbsp".
 $pageall=$rowset->pages;
 include template('search');
 footer();
-# This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

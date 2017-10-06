@@ -1,6 +1,4 @@
 <!--<?php
-# MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
 $msecount = $db->counter($_M['table']['infoprompt'], " WHERE lang='{$_M[lang]}' and see_ok='0'", "*");
 $_M['url']['adminurl'] = $_M['url']['site'].$met_adminfile."/index.php?lang={$lang}&";
 if($_M[config][met_agents_type] > 2) $met_agents_display = "style=\"display:none\"";
@@ -266,7 +264,7 @@ if ($key_info['authpass'] && $key_info['authcode']) {
 if(!$otherinfoauth) {
 echo <<<EOT
 -->				
-		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="http://www.metinfo.cn/web/product.htm">{$_M['word']['sys_authorization2']}</a></li>
+		<li class="met-tool-list text-center"><a target="_blank" class="liaojie" href="">{$_M['word']['sys_authorization2']}</a></li>
 		<li class="met-tool-list text-center">
 		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M['url']['adminurl']}&n=system&c=authcode&a=doindex';">{$_M['word']['sys_authorization1']}</button>
 		</li>
@@ -290,29 +288,7 @@ echo <<<EOT
 	</ul>
 </div>
 <div class="btn-group pull-right met-tool supportbox" {$met_agents_display}>
-	<a href="http://www.metinfo.cn/bangzhu/index.php?ver=metcms" class="btn btn-success dropdown-toggle" target="_blank">技术支持<a>
-	<!--<button class="btn btn-success dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-expanded="true">
-		<i class="fa fa-life-ring"></i><span class="hidden-xs">技术支持</span>
-		<span class="caret"></span>
-		<input name="supporturldata" type="hidden" value="user_key={$_M['config']['met_secret_key']}&siteurl={$_M['url']['site']}" />
-	</button>-->
-	<ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
-		<li class="met-tool-list text-center support_loading">获取中...</li>
-		<li class="met-tool-list text-center support_youok">处理时间：每天 </li>
-		<li class="met-tool-list text-center support_youok"><button class="btn btn-primary" type="submit">工单</button></li>
-		<li class="divider support_youok"></li>
-		<li class="met-tool-list text-center support_youok">在线时间：工作日</li>
-		<li class="met-tool-list text-center support_youok"><button class="btn btn-info supportmechatlink" type="submit">点我咨询</button></li>
-		<li class="divider support_youok"></li>
-		<li class="met-tool-list text-center support_desc">于 <span id="support_expiretime"></span> 到期</li>
-		<li class="met-tool-list text-center support_desc"><a href="{$_M[url][adminurl]}n=appstore&c=support&a=doindex">续费服务</a></li>
-		<li class="met-tool-list text-center support_no"><span class="text-danger">尚未开通服务</span>
-		<a href="http://www.metinfo.cn/news/shownews1248.htm" target="_blank">什么是技术支持？</a>
-		</li>
-		<li class="met-tool-list text-center support_no">
-		<button class="btn btn-primary" type="submit" onclick="location.href = '{$_M[url][adminurl]}n=appstore&c=support&a=doindex';">开通服务</button>
-		</li>
-	</ul>
+	
 </div>
 			</div>
 		</div>
@@ -340,5 +316,4 @@ var langtime;
 <!--
 EOT;
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

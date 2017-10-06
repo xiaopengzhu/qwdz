@@ -1,6 +1,4 @@
 <?php
-# MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved.
 header("Expires: Mon, 26 Jul 1970 05:00:00 GMT");
 header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
 header("Cache-Control: no-cache, must-revalidate");
@@ -103,6 +101,4 @@ if($htmsitemap==$met_member_force && ($met_sitemap_html||$met_sitemap_xml||$met_
 	}
 	die();
 }
-# This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

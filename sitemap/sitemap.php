@@ -1,6 +1,4 @@
 <?php
-# MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
 require_once '../include/common.inc.php';
 $sitemap_column=$db->get_one("select * from $met_column where module='12' and lang='$lang'");
 $metaccess=$sitemap_column[access];
@@ -45,6 +43,4 @@ require_once ROOTPATH.'public/php/methtml.inc.php';
 require_once ROOTPATH.'sitemap/generator.php';
 include template('sitemap');
 footer();
-# This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

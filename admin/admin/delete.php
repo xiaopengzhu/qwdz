@@ -1,6 +1,5 @@
 <?php
 # MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
 require_once '../login/login_check.php';
 $adminno = $db->counter($met_admin_table, " where admin_type like '%metinfo%' and id<>'$id'", "*");
 if($adminno<1)metsave('-1',$lang_deleteJS);
@@ -20,5 +19,4 @@ $db->query($query);
 metsave('../admin/index.php?lang='.$lang.'&anyid='.$anyid);
 }
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

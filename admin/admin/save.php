@@ -1,6 +1,5 @@
 <?php
 # MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved. 
 //define('ADMIN_POWER','metinfo');
 require_once '../login/login_check.php'; if ($_SERVER["REQUEST_METHOD"] !== 'POST') {exit();}
 $admin_ok = 1;
@@ -137,5 +136,4 @@ if($action=='change'){
 
 }
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>

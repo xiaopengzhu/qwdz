@@ -1,6 +1,5 @@
 <?php
 # MetInfo Enterprise Content Management System 
-# Copyright (C) MetInfo Co.,Ltd (http://www.metinfo.cn). All rights reserved.
 require_once '../include/common.inc.php';
 $query = "SELECT * FROM {$met_config} WHERE name='met_fd_usename' AND lang='{$lang}'";
 $fd = $db->get_one($query);
@@ -132,7 +131,7 @@ switch($action){
 				$body .="</style>\n";
 				$body .="<div id='metinfo'>\n";
 				if($met_agents_type<=1){
-					$body .="<div class='logo'><a href='$met_weburl' title='$met_webname'><img src='http://www.metinfo.cn/upload/200911/1259148297.gif' /></a></div>";
+					$body .="<div class='logo'><a href='$met_weburl' title='$met_webname'><img src='' /></a></div>";
 				}
 				$body .="<div class='text'><p>".$lang_hello.$admin_name."</p><p>$lang_getTip1</p>";
 				$body .="<p><a href='$mailurl'>$mailurl</a></p>\n";
@@ -225,5 +224,4 @@ $img_url="../templates/".$met_skin."/images";
 include template('getpassword');
 footer();
 # This program is an open source system, commercial use, please consciously to purchase commercial license.
-# Copyright (C) MetInfo Co., Ltd. (http://www.metinfo.cn). All rights reserved.
 ?>
