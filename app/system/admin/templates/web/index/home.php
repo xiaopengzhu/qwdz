@@ -71,7 +71,6 @@ EOT;
 if(!$_M['config']['met_agents_app_news']){
 echo <<<EOT
 -->	
-		<a href="http://edu.metinfo.cn/" target="_blank" {$met_agents_display}>{$_M['word']['extension_school']}<i class="fa fa-angle-right"></i></a>
 <!--
 EOT;
 }
@@ -172,117 +171,12 @@ if(!$_M['config']['met_agents_app_news']){
 if(($privilege['navigation'] == 'metinfo' || strstr($privilege['navigation'], '1507')) && $_M['config']['met_agents_app'] ) {
 echo <<<EOT
 -->
-	<section class="index_hotapp index_hot">
-		<h3>{$_M['word']['recommended']}<a href="{$_M[url][site_admin]}index.php?lang={$_M[lang]}&anyid=65&n=appstore&c=appstore&a=doindex">{$_M['word']['more_applications']}<i class="fa fa-angle-right"></i></a>
-		</h3>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6 col-xs-12 index_stat_chart">
-					<div class="media">
-						<div class="media-left">
-							<a href="#">
-								<img class="media-object" src="" width="80">
-							</a>
-						</div>
-						<div class="media-body">
-							<a href="#">
-								<h4 class="media-heading"><span class="text-danger"></span></h4>
-								<p></p>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+
 <!--
 EOT;
 }
 if ($_M['config']['met_agents_type'] < 2 && !$_M['config']['met_agents_app_news']) {
-echo <<<EOT
--->
-	<section class="index_news">
-		<h3>MetInfo {$_M['word']['upfiletips37']}<a href="http://www.metinfo.cn/" target="_blank">{$_M['word']['columnmore']}<i class="fa fa-angle-right"></i></a></h3>
-		<div id="newslist" data-newslisturl="http://www.metinfo.cn/metv5news.php?fromurl={$_M[config][met_weburl]}&action=json&listnum=6">
-		</div>
-	</section>
-<!--
-EOT;
+
 }
 }
 echo <<<EOT
