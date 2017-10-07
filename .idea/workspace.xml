@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="609723bc-e91a-4d76-a777-88d125426134" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/system/include/public/ui/admin/images/logo.png" afterPath="$PROJECT_DIR$/app/system/include/public/ui/admin/images/logo.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/old_head.php" afterPath="$PROJECT_DIR$/admin/old_head.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/system/admin/templates/web/appstore/js/own.js" afterPath="$PROJECT_DIR$/app/system/admin/templates/web/appstore/js/own.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/system/admin/templates/web/index/home.php" afterPath="$PROJECT_DIR$/app/system/admin/templates/web/index/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/system/include/public/ui/admin/box.php" afterPath="$PROJECT_DIR$/app/system/include/public/ui/admin/box.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/column_cn.inc.php" afterPath="$PROJECT_DIR$/cache/column_cn.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cache/lang_json_admin_cn.php" afterPath="$PROJECT_DIR$/cache/lang_json_admin_cn.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,56 +13,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="home.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/system/admin/templates/web/index/home.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="537">
-              <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-              <folding>
-                <marker date="1507303030935" expanded="true" signature="680:1403" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="705:906" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="734:850" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="854:898" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="938:1162" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="966:1108" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="1112:1156" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="1184:1391" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="1202:1337" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="1341:1385" ph="{...}" />
-                <marker date="1507303030935" expanded="true" signature="1553:1660" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="1872:1956" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="1913:1956" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="1920:1956" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2088:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2095:3464" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2103:2290" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2160:2243" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2298:2480" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2345:2433" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2488:2736" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2603:2689" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2744:2913" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2787:2866" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2921:3456" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="2956:3447" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3361:3436" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3506:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3579:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3600:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3644:4012" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3685:3952" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="3696:3874" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="4056:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="4120:4323" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="4131:4318" ph="..." />
-                <marker date="1507303030935" expanded="true" signature="4385:4509" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -132,124 +76,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="system" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="index" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="qwdz" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -281,18 +107,17 @@
       <option name="presentableId" value="Default" />
       <updated>1507290325640</updated>
       <workItem from="1507290326886" duration="4864000" />
-      <workItem from="1507300465312" duration="1585000" />
+      <workItem from="1507300465312" duration="2960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6449000" />
+    <option name="totallyTimeSpent" value="7824000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -359,7 +184,7 @@
     <entry file="file://$PROJECT_DIR$/app/system/admin/templates/web/index/home.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="537">
-          <caret line="178" column="0" lean-forward="true" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <caret line="178" column="0" lean-forward="false" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
           <folding>
             <marker date="1507303030935" expanded="true" signature="680:1403" ph="..." />
             <marker date="1507303030935" expanded="true" signature="705:906" ph="{...}" />
